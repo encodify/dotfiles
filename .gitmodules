@@ -1,0 +1,27 @@
+[submodule ".vim/bundle/pathogen"]
+	path = .vim/bundle/pathogen
+	url = https://github.com/tpope/vim-pathogen
+[submodule ".vim/bundle/tcomment"]
+	path = .vim/bundle/tcomment
+	url = https://github.com/tomtom/tcomment_vim
+[submodule ".vim/bundle/tlib"]
+	path = .vim/bundle/tlib
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule ".vim/bundle/addon-mw-utils"]
+	path = .vim/bundle/addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule ".vim/bundle/snipmate"]
+	path = .vim/bundle/snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule ".vim/bundle/markdown"]
+	path = .vim/bundle/markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule ".vim/bundle/ctrlp"]
+	path = .vim/bundle/ctrlp
+	url = http://github.com/kien/ctrlp.vim.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule ".vim/bundle/hemisu"]
+	path = .vim/bundle/hemisu
+	url = https://github.com/noahfrederick/vim-hemisu

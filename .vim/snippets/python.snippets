@@ -1,0 +1,19 @@
+snippet def function
+	def ${1:name}(${2}):
+		'''${3:Docstring for function.}'''
+		${4:pass}
+
+snippet def method
+	def ${1:name}(self${2}):
+		'''${3:Docstring for method.}'''
+		${4:pass}
+
+snippet head module header
+	"""${1:Docstring for module}."""
+	
+	__authors__ = ("Jacob Rothenbuhler",)
+	
+	
+
+snippet pdb breakpoint
+	import pdb; pdb.set_trace()
