@@ -12,6 +12,9 @@ hemisu
 markdown
     Markdown syntax
 
+nerdtree
+    File tree explorer
+
 pathogen
     Package management
 

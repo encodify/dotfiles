@@ -45,6 +45,11 @@ set shiftwidth=4
 set softtabstop=4
 
 
+" NERD Tree plugin
+nnoremap <leader>nt :NERDTreeToggle<cr>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+
 " Syntastic plugin
 let g:syntastic_python_checkers=['flake8']
 let g:syntastic_always_populate_loc_list=1
