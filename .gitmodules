@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/hemisu"]
 	path = .vim/bundle/hemisu
 	url = https://github.com/noahfrederick/vim-hemisu
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
