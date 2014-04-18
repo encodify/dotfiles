@@ -1,5 +1,8 @@
 # VIM Bundles
 
+ack
+    Fast file search
+
 addon-mw-utils
     Depenency of snipmate
 
