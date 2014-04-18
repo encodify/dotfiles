@@ -6,6 +6,9 @@ ack
 addon-mw-utils
     Depenency of snipmate
 
+base16
+    Color schemes by chriskempson
+
 ctrlp
     File opener
 

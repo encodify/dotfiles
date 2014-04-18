@@ -10,7 +10,7 @@ execute pathogen#helptags()
 
 " syntax highlighting
 syntax on
-colorscheme ir_black
+colorscheme base16-default
 
 
 " filetype initialization
