@@ -10,6 +10,7 @@ execute pathogen#helptags()
 
 " syntax highlighting
 syntax on
+set background=dark
 colorscheme base16-default
 
 
