@@ -10,7 +10,7 @@ execute pathogen#helptags()
 
 " syntax highlighting
 syntax on
-colorscheme base16-default
+colorscheme ir_black
 
 
 " filetype initialization
@@ -47,7 +47,6 @@ set softtabstop=4
 
 " NERD Tree plugin
 nnoremap <leader>nt :NERDTreeToggle<cr>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 let NERDTreeIgnore=['\.pyc$', '^\.git$', '^\.svn$', '^\.\+$', '\~$', '\.swp$']
 let NERDTreeShowHidden=1
 
