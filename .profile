@@ -2,10 +2,10 @@
 source $HOME/bin/bash_colors.sh
 
 # Custom PATH
-export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=$HOME/bin:$HOME/utils:$PATH
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 export PATH=$HOME/.rvm/bin:$PATH
-export PATH=/Library/Frameworks/Python.framework/Versions/3.4/bin:$PATH
 
 # Git customizations
 source $HOME/bin/git-completion.sh
