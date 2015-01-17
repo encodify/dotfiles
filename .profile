@@ -41,8 +41,8 @@ prompt() {
     fi
     # Python virtualenv
     if [ -n "$VIRTUAL_ENV" ]; then
-        local VENV="${YELLOW}(`basename $VIRTUAL_ENV`)${NORMAL}"
+        local VENV=" ${YELLOW}(`basename $VIRTUAL_ENV`)${NORMAL}"
     fi
-    PS1="\n\u@\h:${BLUE}\w${NORMAL}${GIT}\n${VENV}\$ "
+    PS1="\n\u@\h:${BLUE}\w${NORMAL}${GIT}${VENV}\n\$ "
 }
 PROMPT_COMMAND=prompt
