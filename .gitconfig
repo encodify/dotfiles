@@ -1,0 +1,7 @@
+[user]
+	email = jake@encodify.net
+	name = Jacob R. Rothenbuhler
+[core]
+	editor = vim
+[push]
+	default = simple
