@@ -25,7 +25,7 @@ set list
 set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
 set ruler
 set showcmd
-set wildignore+=*.pyc
+set wildignore+=*.pyc,*/node_modules/*,*/bower_components/*
 
 nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j
