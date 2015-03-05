@@ -19,9 +19,11 @@ export GIT_PS1_SHOWUPSTREAM=auto
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Setup virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUAL_ENV_DISABLE_PROMPT=1
-source /usr/local/bin/virtualenvwrapper.sh
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+    export WORKON_HOME=$HOME/.virtualenvs
+    export VIRTUAL_ENV_DISABLE_PROMPT=1
+    source /usr/local/bin/virtualenvwrapper.sh
+fi
 
 # Better ls
 export CLICOLOR=1
