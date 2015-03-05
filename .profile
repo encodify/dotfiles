@@ -27,7 +27,7 @@ fi
 
 # Better ls
 export CLICOLOR=1
-alias ls='ls -hl'
+alias ls='ls --color -hl'
 
 # Better history
 export HISTCONTROL=erasedups
