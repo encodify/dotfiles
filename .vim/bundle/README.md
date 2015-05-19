@@ -18,6 +18,9 @@ hemisu
 markdown
     Markdown syntax
 
+neomake
+    Asynchronous syntax checking integration
+
 nerdtree
     File tree explorer
 
@@ -26,9 +29,6 @@ pathogen
 
 snipmate
     TextMate-style snippets
-
-syntastic
-    Syntax checking integration
 
 tcomment
     Easily comment/uncomment code

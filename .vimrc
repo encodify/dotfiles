@@ -52,10 +52,8 @@ let NERDTreeIgnore=['\.pyc$', '^\.git$', '^\.svn$', '^\.\+$', '\~$', '\.swp$']
 let NERDTreeShowHidden=1
 
 
-" Syntastic plugin
-let g:syntastic_python_checkers=['flake8']
-let g:syntastic_always_populate_loc_list=1
-
+" Neomake plugin
+autocmd! BufWritePost * Neomake
 
 " Markdown todo lists
 nnoremap <leader>tc o- TODO 
