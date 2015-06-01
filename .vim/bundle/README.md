@@ -24,6 +24,9 @@ neomake
 nerdtree
     File tree explorer
 
+papercolor-theme
+    NLKNguyen's Papercolor theme
+
 pathogen
     Package management
 

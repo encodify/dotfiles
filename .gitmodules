@@ -34,3 +34,6 @@
 [submodule ".vim/bundle/neomake"]
 	path = .vim/bundle/neomake
 	url = https://github.com/benekastah/neomake.git
+[submodule ".vim/bundle/papercolor-theme"]
+	path = .vim/bundle/papercolor-theme
+	url = https://github.com/NLKNguyen/papercolor-theme.git
