@@ -38,3 +38,9 @@ tcomment
 
 tlib
     Utility functions, dependency of snipmate
+
+vim-javascript
+    JavaScript syntax highlighting
+
+vim-jsx
+    JSX syntax highlighting
