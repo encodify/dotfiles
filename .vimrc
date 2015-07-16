@@ -31,6 +31,11 @@ nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
+if has('nvim')
+    " workaround for <c-h> mapping issue
+    " https://github.com/neovim/neovim/issues/2048
+    nnoremap <bs> <c-w>h
+endif
 
 
 " editing
