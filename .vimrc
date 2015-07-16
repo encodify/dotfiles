@@ -55,10 +55,3 @@ let NERDTreeShowHidden=1
 
 " Neomake plugin
 autocmd! BufWritePost * Neomake
-
-" Markdown todo lists
-nnoremap <leader>tc o- TODO 
-nnoremap <leader>tC O- TODO 
-nnoremap <leader>tt 0wcwTODO<esc>
-nnoremap <leader>tn 0wcwNEXT<esc>
-nnoremap <leader>td 0wcwDONE []<esc>"=strftime("%Y-%m-%d")<CR>P
