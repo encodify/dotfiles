@@ -3,9 +3,9 @@ source $HOME/bin/bash_colors.sh
 
 # Custom PATH
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-export PATH=$HOME/bin:$HOME/utils:$PATH
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 export PATH=$HOME/.rvm/bin:$PATH
+export PATH=$HOME/bin:$HOME/utils:$PATH
 
 # Git customizations
 source $HOME/bin/git-completion.sh
@@ -48,3 +48,8 @@ prompt() {
     PS1="\n\u@\h:${BLUE}\w${NORMAL}${GIT}${VENV}\n\$ "
 }
 PROMPT_COMMAND=prompt
+
+# Source .bashrc if it exists, this is where I keep system-specific stuff
+if [ -f $HOME/.bashrc ]; then
+    source $HOME/.bashrc
+fi
