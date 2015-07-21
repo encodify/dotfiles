@@ -1,0 +1,10 @@
+[ui]
+username = Jake Rothenbuhler <jake.rothenbuhler@invitae.com>
+
+[extensions]
+pager =
+progress =
+color =
+
+[pager]
+pager = LESS='FR' less
