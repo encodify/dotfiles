@@ -7,4 +7,4 @@ progress =
 color =
 
 [pager]
-pager = LESS='FR' less
+pager = LESS='FRX' less
