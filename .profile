@@ -25,10 +25,6 @@ if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     source /usr/local/bin/virtualenvwrapper.sh
 fi
 
-# Better ls
-export CLICOLOR=1
-alias ls='ls -hl'
-
 # Better history
 export HISTCONTROL=erasedups
 export HISTSIZE=10000
