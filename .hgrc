@@ -5,6 +5,7 @@ username = Jake Rothenbuhler <jake.rothenbuhler@invitae.com>
 pager =
 progress =
 color =
+shelve =
 
 [pager]
 pager = LESS='FRX' less
