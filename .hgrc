@@ -1,5 +1,6 @@
 [ui]
 username = Jake Rothenbuhler <jake.rothenbuhler@invitae.com>
+merge = internal:merge
 
 [extensions]
 pager =
