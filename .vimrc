@@ -23,6 +23,7 @@ set incsearch
 set laststatus=2
 set list
 set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+set nowrap
 set ruler
 set showcmd
 set wildignore+=*/tmp/*,*.pyc,*.orig,*/node_modules/*,*/bower_components/*
