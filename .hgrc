@@ -3,10 +3,14 @@ username = Jake Rothenbuhler <jake.rothenbuhler@invitae.com>
 merge = Kaleidoscope
 
 [extensions]
+histedit =
 pager =
 progress =
+purge =
 color =
+rebase =
 shelve =
+strip =
 hgext.extdiff =
 
 [extdiff]
