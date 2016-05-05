@@ -44,3 +44,6 @@ vim-javascript
 
 vim-jsx
     JSX syntax highlighting
+
+vim-less
+    LESS syntax highlighting
